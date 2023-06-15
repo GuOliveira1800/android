@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showCreateNoteDialog() {
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
-        builder.setTitle("Nova Nota");
+        builder.setTitle("Comida");
 
         View dialogView = getLayoutInflater().inflate(R.layout.dialog_note, null);
         builder.setView(dialogView);
